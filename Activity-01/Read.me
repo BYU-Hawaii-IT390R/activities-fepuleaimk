@@ -1,0 +1,26 @@
+# Activity-01
+
+## Enhancement Chosen
+
+I implemented the `--min-size` enhancement. This filter includes only `.txt` files larger than a specified number of kilobytes (KB).
+
+## How to Run the Script
+
+1. Make sure you have Python 3 installed.
+2. Navigate to the `Activity-01/` directory in your terminal.
+3. Run the following command:
+
+```bash
+python scan.py <directory_path> --min-size <size_in_kb>
+
+loviliamuz@MacBookAir Activity-01 % python3 scan.py test_root --min-size 10
+
+
+Scanning: /Users/loviliamuz/Malone/activities-fepuleaimk/Activity-01/test_root
+Applying minimum size filter: 10.0 KB
+Found 0 text files larger than 10.0 KB:
+
+File                                      Size (KB)
+----------------------------------------------------
+----------------------------------------------------
+Total size: 0.0 KB
